@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(245, 245, 220, 0.568);
+}
+
+.lineChart {
+  width: 50%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.barchart {
+  width: 50%;
+  border-radius: 20px;
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.charts {
+  display: flex;
+  margin: 40px;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(236, 234, 234);
+  padding: 20px;
+  color: blueviolet;
+  margin-bottom: 40px;
+}
+
+.topHR{
+  width: 90%;
+}
+
+.line{
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  margin: 0 auto;
+  width: 95%;
+}
